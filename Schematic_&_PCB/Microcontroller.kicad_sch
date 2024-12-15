@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "7000e7fb-429d-4f8d-947c-93187b1544b6")
-	(paper "USLedger")
+	(paper "USLetter" portrait)
 	(title_block
 		(title "Numb")
 		(date "2024-12-08")
@@ -7708,7 +7708,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
-					(reference "SW21")
+					(reference "SW83")
 					(unit 1)
 				)
 			)
@@ -9950,7 +9950,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
-					(reference "SW22")
+					(reference "SW84")
 					(unit 1)
 				)
 			)
