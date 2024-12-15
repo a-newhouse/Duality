@@ -1,0 +1,90 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ae9225e9-4453-4b68-a70e-f88602f2aa14")
+	(paper "USLegal")
+	(lib_symbols)
+	(sheet
+		(at 12.7 24.13)
+		(size 22.86 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01b6c0e9-8501-4e26-bdcd-0bb83d14c700")
+		(property "Sheetname" "MatrixSwitch"
+			(at 12.7 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MatrixSwitch.kicad_sch"
+			(at 12.7 28.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Duality"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 15.24)
+		(size 22.86 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "519e8402-a2a3-4653-b91c-7d44cc92621a")
+		(property "Sheetname" "Microcontroller"
+			(at 12.7 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 12.7 19.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Duality"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "4")
+		)
+	)
+)
