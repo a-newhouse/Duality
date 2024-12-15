@@ -1015,6 +1015,12 @@
 		(uuid "1fa185a5-1741-4336-8c57-1a2c5d55b0e4")
 	)
 	(junction
+		(at 113.03 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "213c9449-4418-40ac-9215-3e52a9d8d3a7")
+	)
+	(junction
 		(at 77.47 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1135,6 +1141,12 @@
 		(uuid "44b98c2f-1283-4702-ab5f-37ea1ccfb2d7")
 	)
 	(junction
+		(at 168.91 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4648a192-8e9c-43d1-863d-9cb384f17a89")
+	)
+	(junction
 		(at 166.37 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1163,6 +1175,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53776062-886a-4652-a767-360835a7ea6b")
+	)
+	(junction
+		(at 133.35 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "557a87aa-c45d-4fab-a0e9-7c7b79b8f4f5")
 	)
 	(junction
 		(at 113.03 105.41)
@@ -1201,7 +1219,7 @@
 		(uuid "5d5d02eb-d8ae-4e8f-bed5-835421fd4193")
 	)
 	(junction
-		(at 166.37 166.37)
+		(at 184.15 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e797192-954e-4631-90fa-25f64ca82b99")
@@ -1453,12 +1471,6 @@
 		(uuid "a6c70571-6d86-4905-a219-1454cd1c8159")
 	)
 	(junction
-		(at 113.03 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7245b96-9d90-4811-ba6c-e0a537eb1237")
-	)
-	(junction
 		(at 168.91 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1517,12 +1529,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9307758-90f2-480f-b6ec-ce050c3719b5")
-	)
-	(junction
-		(at 151.13 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9ebe9d5-3b89-4dae-b101-4920dc6a214b")
 	)
 	(junction
 		(at 204.47 113.03)
@@ -1721,6 +1727,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea341eca-2c88-4d2b-9c5b-1839bff2cd8b")
+	)
+	(junction
+		(at 148.59 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed03acac-b42a-4fba-a1e5-8875e4d8a089")
 	)
 	(junction
 		(at 257.81 72.39)
@@ -2378,6 +2390,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 166.37) (xy 237.49 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e49ca7-99c8-4cd5-9bf5-4bdc97bc8669")
+	)
+	(wire
+		(pts
 			(xy 59.69 52.07) (xy 59.69 54.61)
 		)
 		(stroke
@@ -2385,6 +2407,16 @@
 			(type default)
 		)
 		(uuid "1ac0c549-cfd6-43cc-a1a4-b40eef7d81ff")
+	)
+	(wire
+		(pts
+			(xy 133.35 133.35) (xy 133.35 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b56b14f-cd1d-4533-9bac-3a4846d6529e")
 	)
 	(wire
 		(pts
@@ -2598,6 +2630,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 153.67) (xy 133.35 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25894938-01b8-477d-9a2a-78cba9ab7534")
+	)
+	(wire
+		(pts
 			(xy 130.81 125.73) (xy 148.59 125.73)
 		)
 		(stroke
@@ -2675,6 +2717,16 @@
 			(type default)
 		)
 		(uuid "29545d19-afc3-43e7-8dca-2f2b15e77780")
+	)
+	(wire
+		(pts
+			(xy 148.59 153.67) (xy 148.59 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b04a919-7320-43f5-9f0f-8bf85758b879")
 	)
 	(wire
 		(pts
@@ -2758,7 +2810,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 163.83) (xy 166.37 166.37)
+			(xy 184.15 163.83) (xy 184.15 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3338,6 +3390,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 166.37) (xy 184.15 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff0c16c-28fe-4829-bc1c-a261377a52ab")
+	)
+	(wire
+		(pts
 			(xy 59.69 123.19) (xy 59.69 125.73)
 		)
 		(stroke
@@ -3438,7 +3500,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 153.67) (xy 166.37 153.67)
+			(xy 181.61 153.67) (xy 184.15 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3788,7 +3850,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 153.67) (xy 151.13 153.67)
+			(xy 171.45 153.67) (xy 168.91 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4118,6 +4180,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 166.37) (xy 148.59 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75cac14e-ca9a-4d35-8f16-de2460446604")
+	)
+	(wire
+		(pts
 			(xy 290.83 64.77) (xy 308.61 64.77)
 		)
 		(stroke
@@ -4438,7 +4510,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 166.37) (xy 219.71 166.37)
+			(xy 184.15 166.37) (xy 219.71 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4798,16 +4870,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 166.37) (xy 166.37 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94723326-63ec-4918-8f0d-4f51471f4793")
-	)
-	(wire
-		(pts
 			(xy 133.35 41.91) (xy 133.35 52.07)
 		)
 		(stroke
@@ -4888,7 +4950,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 153.67) (xy 166.37 156.21)
+			(xy 184.15 153.67) (xy 184.15 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5135,6 +5197,16 @@
 			(type default)
 		)
 		(uuid "a393f496-594d-41fc-bf60-cbefd6a34c48")
+	)
+	(wire
+		(pts
+			(xy 146.05 153.67) (xy 148.59 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d8370a-0864-4e6d-bee2-5b2704fe71d8")
 	)
 	(wire
 		(pts
@@ -5768,7 +5840,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 133.35) (xy 151.13 153.67)
+			(xy 168.91 133.35) (xy 168.91 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5835,16 +5907,6 @@
 			(type default)
 		)
 		(uuid "cde62a86-e572-4ba0-a2ec-745db91bf8dc")
-	)
-	(wire
-		(pts
-			(xy 219.71 166.37) (xy 237.49 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdf7ad16-b7d9-49cb-8584-2ff6e60986c3")
 	)
 	(wire
 		(pts
@@ -6365,6 +6427,16 @@
 			(type default)
 		)
 		(uuid "e60883e5-6403-4138-94dc-021a2d21a7b1")
+	)
+	(wire
+		(pts
+			(xy 148.59 163.83) (xy 148.59 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d6a86a-1145-4dd9-a9a7-236bc613e965")
 	)
 	(wire
 		(pts
@@ -9705,7 +9777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "303d7110-2d3c-4791-bc08-f190442aa567")
-		(property "Reference" "D82"
+		(property "Reference" "D83"
 			(at 307.34 158.75 90)
 			(effects
 				(font
@@ -9777,7 +9849,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "D82")
+					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -10188,7 +10260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3803f9e0-77b9-4006-8461-01cc6da40f77")
-		(property "Reference" "D83"
+		(property "Reference" "D84"
 			(at 173.99 176.53 0)
 			(effects
 				(font
@@ -10258,7 +10330,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "D83")
+					(reference "D84")
 					(unit 1)
 				)
 			)
@@ -10266,15 +10338,15 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148WS")
-		(at 166.37 160.02 90)
+		(at 184.15 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "383eb131-6c13-46c2-b19c-dfcdda2ae2c3")
-		(property "Reference" "D76"
-			(at 165.1 158.75 90)
+		(property "Reference" "D77"
+			(at 182.88 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +10355,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 165.1 161.29 90)
+			(at 182.88 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10292,7 +10364,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 170.815 160.02 0)
+			(at 188.595 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10301,7 +10373,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 166.37 160.02 0)
+			(at 184.15 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10310,7 +10382,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 166.37 160.02 0)
+			(at 184.15 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10319,7 +10391,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 166.37 160.02 0)
+			(at 184.15 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10328,7 +10400,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 166.37 160.02 0)
+			(at 184.15 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10345,7 +10417,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "D76")
+					(reference "D77")
 					(unit 1)
 				)
 			)
@@ -11043,7 +11115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41766275-8aa2-4e71-a7cb-1985bfeec284")
-		(property "Reference" "SW79"
+		(property "Reference" "SW80"
 			(at 247.65 147.32 0)
 			(effects
 				(font
@@ -11095,7 +11167,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "SW79")
+					(reference "SW80")
 					(unit 1)
 				)
 			)
@@ -11110,7 +11182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41b832fa-38d9-4a51-aa0c-27169198b641")
-		(property "Reference" "D80"
+		(property "Reference" "D81"
 			(at 271.78 158.75 90)
 			(effects
 				(font
@@ -11182,7 +11254,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "D80")
+					(reference "D81")
 					(unit 1)
 				)
 			)
@@ -12229,7 +12301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56d1fd03-dde0-467b-b642-3dea764bff06")
-		(property "Reference" "SW78"
+		(property "Reference" "SW79"
 			(at 229.87 147.32 0)
 			(effects
 				(font
@@ -12281,7 +12353,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "SW78")
+					(reference "SW79")
 					(unit 1)
 				)
 			)
@@ -12738,7 +12810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "650bf84a-460e-41ca-9d46-f42f3913860e")
-		(property "Reference" "D77"
+		(property "Reference" "D78"
 			(at 218.44 158.75 90)
 			(effects
 				(font
@@ -12810,7 +12882,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "D77")
+					(reference "D78")
 					(unit 1)
 				)
 			)
@@ -13133,7 +13205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70ef6c41-215d-4312-8e12-7d3cdd54f566")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR01"
 			(at 149.86 198.12 0)
 			(effects
 				(font
@@ -13183,7 +13255,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "#PWR05")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -13893,6 +13965,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 140.97 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e53954d-209f-43aa-816d-045b419a02bc")
+		(property "Reference" "SW76"
+			(at 140.97 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Space"
+			(at 140.97 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_6.25u"
+			(at 140.97 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 140.97 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d74294a3-dc78-469b-af4a-31bf39942bc6")
+		)
+		(pin "2"
+			(uuid "0ae8cd80-b85e-4a1f-ba98-9c37b24db3ae")
+		)
+		(instances
+			(project "Duality"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
+					(reference "SW76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148WS")
 		(at 237.49 139.7 90)
 		(unit 1)
@@ -14229,7 +14368,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93ad2aec-c6a3-48ab-88d2-69c3c2a2f832")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 160.02 198.12 0)
 			(effects
 				(font
@@ -14279,7 +14418,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -14669,7 +14808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "999c8115-bc38-4d2e-bf8a-646a129cd7b0")
-		(property "Reference" "D81"
+		(property "Reference" "D82"
 			(at 289.56 158.75 90)
 			(effects
 				(font
@@ -14741,7 +14880,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "D81")
+					(reference "D82")
 					(unit 1)
 				)
 			)
@@ -15721,7 +15860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a70b326e-00be-4137-a91e-5a2b3f7f399e")
-		(property "Reference" "SW77"
+		(property "Reference" "SW78"
 			(at 212.09 147.32 0)
 			(effects
 				(font
@@ -15773,7 +15912,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "SW77")
+					(reference "SW78")
 					(unit 1)
 				)
 			)
@@ -16325,7 +16464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1721ab3-d3aa-4fa5-a8fa-cdf6851d886d")
-		(property "Reference" "SW81"
+		(property "Reference" "SW82"
 			(at 283.21 147.32 0)
 			(effects
 				(font
@@ -16377,7 +16516,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "SW81")
+					(reference "SW82")
 					(unit 1)
 				)
 			)
@@ -17289,7 +17428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c44d6fb0-1b99-472d-bcf4-15e2e1eb906e")
-		(property "Reference" "D79"
+		(property "Reference" "D80"
 			(at 254 158.75 90)
 			(effects
 				(font
@@ -17361,7 +17500,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "D79")
+					(reference "D80")
 					(unit 1)
 				)
 			)
@@ -17443,7 +17582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6d7f40d-d84b-4e83-a99e-b3f53f6d56b3")
-		(property "Reference" "SW80"
+		(property "Reference" "SW81"
 			(at 265.43 147.32 0)
 			(effects
 				(font
@@ -17495,7 +17634,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "SW80")
+					(reference "SW81")
 					(unit 1)
 				)
 			)
@@ -17657,15 +17796,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 158.75 153.67 0)
+		(at 176.53 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "caee6b19-9cac-499e-9fc4-cca640f0597e")
-		(property "Reference" "SW76"
-			(at 158.75 147.32 0)
+		(property "Reference" "SW77"
+			(at 176.53 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17673,7 +17812,7 @@
 			)
 		)
 		(property "Value" "Space"
-			(at 158.75 149.86 0)
+			(at 176.53 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17681,7 +17820,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_3.00u"
-			(at 158.75 153.67 0)
+			(at 176.53 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17690,7 +17829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 153.67 0)
+			(at 176.53 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17699,7 +17838,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 158.75 153.67 0)
+			(at 176.53 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17716,7 +17855,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "SW76")
+					(reference "SW77")
 					(unit 1)
 				)
 			)
@@ -19043,7 +19182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e57f3dae-557e-4a09-b9d9-d8e8c30c6e06")
-		(property "Reference" "SW82"
+		(property "Reference" "SW83"
 			(at 300.99 147.32 0)
 			(effects
 				(font
@@ -19095,7 +19234,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "SW82")
+					(reference "SW83")
 					(unit 1)
 				)
 			)
@@ -19418,7 +19557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef5719d3-11c1-4ecd-b8ed-7707c7593c5e")
-		(property "Reference" "D78"
+		(property "Reference" "D79"
 			(at 236.22 158.75 90)
 			(effects
 				(font
@@ -19490,7 +19629,7 @@
 		(instances
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
-					(reference "D78")
+					(reference "D79")
 					(unit 1)
 				)
 			)
@@ -19625,6 +19764,93 @@
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
 					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 148.59 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f03c6bbe-0612-4127-9da0-f868f6f94f62")
+		(property "Reference" "D76"
+			(at 147.32 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 147.32 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 153.035 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 148.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 148.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 148.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 148.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "290c6fba-cadd-4004-b21b-6c03239443b6")
+		)
+		(pin "1"
+			(uuid "9353a07f-351d-4603-a426-f5b0ac7f0a5d")
+		)
+		(instances
+			(project "Duality"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/01b6c0e9-8501-4e26-bdcd-0bb83d14c700"
+					(reference "D76")
 					(unit 1)
 				)
 			)

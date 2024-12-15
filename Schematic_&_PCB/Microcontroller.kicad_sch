@@ -6231,7 +6231,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR082")
 					(unit 1)
 				)
@@ -6308,7 +6308,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR086")
 					(unit 1)
 				)
@@ -6391,7 +6391,7 @@
 				)
 			)
 			(project ""
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "U3")
 					(unit 1)
 				)
@@ -6468,7 +6468,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR089")
 					(unit 1)
 				)
@@ -6545,7 +6545,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR079")
 					(unit 1)
 				)
@@ -6622,7 +6622,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR049")
 					(unit 1)
 				)
@@ -6703,7 +6703,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "R6")
 					(unit 1)
 				)
@@ -6785,7 +6785,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "C25")
 					(unit 1)
 				)
@@ -6862,7 +6862,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR067")
 					(unit 1)
 				)
@@ -7109,7 +7109,7 @@
 				)
 			)
 			(project ""
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "U1")
 					(unit 1)
 				)
@@ -7186,7 +7186,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR064")
 					(unit 1)
 				)
@@ -7216,7 +7216,7 @@
 				)
 			)
 		)
-		(property "Value" "GCT USB4105"
+		(property "Value" "GCT USB45xx"
 			(at 127 81.28 0)
 			(effects
 				(font
@@ -7224,7 +7224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "PCM_Miscellaneous:GCT_USB4505-03-0-A_REVA"
 			(at 130.81 100.33 0)
 			(effects
 				(font
@@ -7233,7 +7233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://gct.co/product-compare/usb/usb4500,usb4505,usb4510,usb4520"
 			(at 130.81 100.33 0)
 			(effects
 				(font
@@ -7310,7 +7310,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "J1")
 					(unit 1)
 				)
@@ -7392,7 +7392,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "C21")
 					(unit 1)
 				)
@@ -7469,7 +7469,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR065")
 					(unit 1)
 				)
@@ -7546,7 +7546,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR056")
 					(unit 1)
 				)
@@ -7627,7 +7627,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "R1")
 					(unit 1)
 				)
@@ -7707,8 +7707,8 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
-					(reference "SW83")
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
+					(reference "SW84")
 					(unit 1)
 				)
 			)
@@ -7789,7 +7789,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "C27")
 					(unit 1)
 				)
@@ -7866,7 +7866,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR083")
 					(unit 1)
 				)
@@ -7943,7 +7943,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR057")
 					(unit 1)
 				)
@@ -8022,7 +8022,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "R2")
 					(unit 1)
 				)
@@ -8101,7 +8101,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "R4")
 					(unit 1)
 				)
@@ -8178,7 +8178,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR054")
 					(unit 1)
 				)
@@ -8255,7 +8255,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR055")
 					(unit 1)
 				)
@@ -8332,7 +8332,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR084")
 					(unit 1)
 				)
@@ -8418,7 +8418,7 @@
 				)
 			)
 			(project ""
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "Y1")
 					(unit 1)
 				)
@@ -8495,7 +8495,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR052")
 					(unit 1)
 				)
@@ -8573,7 +8573,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR081")
 					(unit 1)
 				)
@@ -8650,8 +8650,8 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
-					(reference "#PWR01")
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -8727,7 +8727,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR051")
 					(unit 1)
 				)
@@ -8830,7 +8830,7 @@
 				)
 			)
 			(project ""
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "U2")
 					(unit 1)
 				)
@@ -8911,7 +8911,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "R5")
 					(unit 1)
 				)
@@ -8990,7 +8990,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "C29")
 					(unit 1)
 				)
@@ -9072,7 +9072,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "C24")
 					(unit 1)
 				)
@@ -9149,7 +9149,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR088")
 					(unit 1)
 				)
@@ -9227,7 +9227,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR076")
 					(unit 1)
 				)
@@ -9309,7 +9309,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "C22")
 					(unit 1)
 				)
@@ -9388,7 +9388,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "R7")
 					(unit 1)
 				)
@@ -9465,7 +9465,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR087")
 					(unit 1)
 				)
@@ -9542,8 +9542,8 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
-					(reference "#PWR02")
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -9619,7 +9619,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR072")
 					(unit 1)
 				)
@@ -9696,7 +9696,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR047")
 					(unit 1)
 				)
@@ -9792,7 +9792,7 @@
 				)
 			)
 			(project ""
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "U4")
 					(unit 1)
 				)
@@ -9869,7 +9869,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -9949,8 +9949,8 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
-					(reference "SW84")
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
+					(reference "SW85")
 					(unit 1)
 				)
 			)
@@ -10026,7 +10026,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR078")
 					(unit 1)
 				)
@@ -10103,7 +10103,7 @@
 				)
 			)
 			(project ""
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR050")
 					(unit 1)
 				)
@@ -10182,7 +10182,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "R3")
 					(unit 1)
 				)
@@ -10259,7 +10259,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR077")
 					(unit 1)
 				)
@@ -10336,7 +10336,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR085")
 					(unit 1)
 				)
@@ -10415,7 +10415,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "C28")
 					(unit 1)
 				)
@@ -10497,7 +10497,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "C26")
 					(unit 1)
 				)
@@ -10574,7 +10574,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR066")
 					(unit 1)
 				)
@@ -10651,7 +10651,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR074")
 					(unit 1)
 				)
@@ -10728,7 +10728,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR048")
 					(unit 1)
 				)
@@ -10809,7 +10809,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "C30")
 					(unit 1)
 				)
@@ -10886,7 +10886,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR080")
 					(unit 1)
 				)
@@ -10967,7 +10967,7 @@
 				)
 			)
 			(project ""
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "C31")
 					(unit 1)
 				)
@@ -11044,7 +11044,7 @@
 				)
 			)
 			(project ""
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR062")
 					(unit 1)
 				)
@@ -11121,7 +11121,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "#PWR075")
 					(unit 1)
 				)
@@ -11203,7 +11203,7 @@
 				)
 			)
 			(project "Duality_TheSecond"
-				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/519e8402-a2a3-4653-b91c-7d44cc92621a"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
 					(reference "C23")
 					(unit 1)
 				)

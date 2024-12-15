@@ -55,7 +55,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "519e8402-a2a3-4653-b91c-7d44cc92621a")
+		(uuid "18f0e30f-68c4-4e92-9427-c9a61fd21267")
 		(property "Sheetname" "Microcontroller"
 			(at 12.7 14.5284 0)
 			(effects
@@ -78,6 +78,44 @@
 			(project "Duality"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14"
 					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 31.75)
+		(size 22.86 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41a8d5b8-14ac-4ffc-ae29-071c826722b5")
+		(property "Sheetname" "LEDs"
+			(at 12.7 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDs.kicad_sch"
+			(at 12.7 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Duality"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14"
+					(page "3")
 				)
 			)
 		)
