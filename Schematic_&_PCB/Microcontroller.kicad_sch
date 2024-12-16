@@ -1418,6 +1418,900 @@
 				)
 			)
 		)
+		(symbol "MCU_Microchip_ATmega:ATmega32U4-M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 44.45 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ATmega32U4-M"
+				(at 2.54 -44.45 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, QFN-44"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "AVR 8bit Microcontroller MegaAVR USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN*1EP*7x7mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ATmega32U4-M_0_1"
+				(rectangle
+					(start -12.7 -43.18)
+					(end 12.7 43.18)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ATmega32U4-M_1_1"
+				(pin bidirectional line
+					(at 15.24 -17.78 180)
+					(length 2.54)
+					(name "PE6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 33.02 180)
+					(length 2.54)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 30.48 180)
+					(length 2.54)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 20.32 180)
+					(length 2.54)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 38.1 0)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 45.72 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -45.72 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 27.94 0)
+					(length 2.54)
+					(name "XTAL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 33.02 0)
+					(length 2.54)
+					(name "XTAL1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "PD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "PD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 45.72 270)
+					(length 2.54)
+					(name "UVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "PD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "PD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "PD5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -45.72 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 45.72 270)
+					(length 2.54)
+					(name "AVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "PD4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "PD6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "PD7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 27.94 180)
+					(length 2.54)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 25.4 180)
+					(length 2.54)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 22.86 180)
+					(length 2.54)
+					(name "PB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 15.24 180)
+					(length 2.54)
+					(name "PC6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "PC7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 2.54)
+					(name "~{HWB}/PE2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 45.72 270)
+					(length 2.54) hide
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -45.72 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -35.56 180)
+					(length 2.54)
+					(name "PF7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -33.02 180)
+					(length 2.54)
+					(name "PF6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -30.48 180)
+					(length 2.54)
+					(name "PF5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -27.94 180)
+					(length 2.54)
+					(name "PF4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -25.4 180)
+					(length 2.54)
+					(name "PF1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -22.86 180)
+					(length 2.54)
+					(name "PF0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 22.86 0)
+					(length 2.54)
+					(name "AREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -45.72 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 45.72 270)
+					(length 2.54) hide
+					(name "AVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -45.72 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -45.72 90)
+					(length 2.54)
+					(name "UGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "UCAP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 17.78 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 38.1 180)
+					(length 2.54)
+					(name "PB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 35.56 180)
+					(length 2.54)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_RaspberryPi:RP2040"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4162,6 +5056,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 227.33) (xy 139.7 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb8e899-5eb9-4118-b032-5a2c0ebddb7c")
+	)
+	(wire
+		(pts
 			(xy 31.75 179.07) (xy 31.75 181.61)
 		)
 		(stroke
@@ -4409,6 +5313,16 @@
 			(type default)
 		)
 		(uuid "32d30d52-e0f1-46ed-bfee-57d31dbd5e50")
+	)
+	(wire
+		(pts
+			(xy 137.16 227.33) (xy 137.16 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3446e200-db9c-485c-a961-fb70ccb41126")
 	)
 	(wire
 		(pts
@@ -6232,7 +7146,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR082")
+					(reference "#PWR0338")
 					(unit 1)
 				)
 			)
@@ -6309,7 +7223,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR086")
+					(reference "#PWR0341")
 					(unit 1)
 				)
 			)
@@ -6392,7 +7306,7 @@
 			)
 			(project ""
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6469,7 +7383,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR089")
+					(reference "#PWR0350")
 					(unit 1)
 				)
 			)
@@ -6546,7 +7460,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR079")
+					(reference "#PWR0344")
 					(unit 1)
 				)
 			)
@@ -6623,7 +7537,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR049")
+					(reference "#PWR0351")
 					(unit 1)
 				)
 			)
@@ -6704,7 +7618,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6786,7 +7700,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "C25")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -6863,7 +7777,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR067")
+					(reference "#PWR0364")
 					(unit 1)
 				)
 			)
@@ -7110,7 +8024,7 @@
 			)
 			(project ""
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7187,7 +8101,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR064")
+					(reference "#PWR0361")
 					(unit 1)
 				)
 			)
@@ -7224,7 +8138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Miscellaneous:GCT_USB4505-03-0-A_REVA"
+		(property "Footprint" "PCM_Miscellaneous:GCT_USB45xx"
 			(at 130.81 100.33 0)
 			(effects
 				(font
@@ -7393,7 +8307,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "C21")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -7470,7 +8384,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR065")
+					(reference "#PWR0362")
 					(unit 1)
 				)
 			)
@@ -7547,7 +8461,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR056")
+					(reference "#PWR0358")
 					(unit 1)
 				)
 			)
@@ -7628,7 +8542,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7790,13 +8704,78 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "C27")
+					(reference "C94")
 					(unit 1)
 				)
 			)
 			(project "Duality_TheSecond"
 				(path "/bfb8a9ef-9eb1-46b4-b715-d4c4059fa4b1/aae00d5e-a2cc-4de1-8012-cadfbb289a8c"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 139.7 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cac05d0-f939-4e15-9ca9-a788342800c9")
+		(property "Reference" "#PWR0371"
+			(at 139.7 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 139.7 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f22c4d36-6198-49cd-b7fb-e85fdfdd2b1d")
+		)
+		(instances
+			(project "Duality"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
+					(reference "#PWR0371")
 					(unit 1)
 				)
 			)
@@ -7867,13 +8846,213 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR083")
+					(reference "#PWR0368")
 					(unit 1)
 				)
 			)
 			(project "Duality_TheSecond"
 				(path "/bfb8a9ef-9eb1-46b4-b715-d4c4059fa4b1/aae00d5e-a2cc-4de1-8012-cadfbb289a8c"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Microchip_ATmega:ATmega32U4-M")
+		(at 139.7 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "619bfcfb-de94-4fc5-b3b1-103f51ac1bf3")
+		(property "Reference" "U5"
+			(at 141.8941 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ATmega32U4-M"
+			(at 141.8941 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm"
+			(at 139.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf"
+			(at 139.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, QFN-44"
+			(at 139.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "62c04988-7ec3-4b8f-8933-9ac2f4d0ab22")
+		)
+		(pin "39"
+			(uuid "8a0a19e1-1b4a-4953-9928-2eee3dcb07ba")
+		)
+		(pin "36"
+			(uuid "33095bc2-9833-4471-882a-a39a72f2d849")
+		)
+		(pin "41"
+			(uuid "5280f22f-c320-4a2c-be02-7c8302938692")
+		)
+		(pin "2"
+			(uuid "ba6679f1-5926-47b9-947d-659ff530cbd4")
+		)
+		(pin "28"
+			(uuid "27e834e2-f8d4-441c-bbb7-b945b80d114d")
+		)
+		(pin "44"
+			(uuid "448910cd-a33b-4bdc-80b3-7adf9ffb49e4")
+		)
+		(pin "16"
+			(uuid "1eaa795d-da08-4551-a229-660c9269f6a0")
+		)
+		(pin "42"
+			(uuid "9c378f5e-5559-4d1e-928f-8981cda708f8")
+		)
+		(pin "35"
+			(uuid "5d7a1d47-6005-4432-a9b8-87d13c274650")
+		)
+		(pin "22"
+			(uuid "3cf12902-ab30-4051-ba12-8c4a3299db63")
+		)
+		(pin "15"
+			(uuid "b579a99a-5113-475d-b78a-fa84b20eab56")
+		)
+		(pin "17"
+			(uuid "9dccb357-5f05-42a9-87d4-e71efe3f47d2")
+		)
+		(pin "21"
+			(uuid "2cc01015-05e3-469a-b2db-ba2bfe4086b4")
+		)
+		(pin "30"
+			(uuid "b64f72f8-7ed4-4005-a0ad-19ae1c82163a")
+		)
+		(pin "29"
+			(uuid "2fc567e9-5f49-443d-bcdf-535717bcb7a9")
+		)
+		(pin "23"
+			(uuid "0ae00670-184d-41e4-a82b-155525ad1c28")
+		)
+		(pin "12"
+			(uuid "5360938e-da3a-42af-a0bf-1385d7a52afd")
+		)
+		(pin "14"
+			(uuid "ed73840b-ba73-403d-9b10-7cc07cc9da6d")
+		)
+		(pin "40"
+			(uuid "f25e7032-8aa5-4d0a-8596-03c91195583f")
+		)
+		(pin "27"
+			(uuid "245fd5c9-0d4c-4876-9ee2-87ed2d30ab99")
+		)
+		(pin "3"
+			(uuid "e045a316-52c1-4e94-8283-da16912a8b47")
+		)
+		(pin "24"
+			(uuid "4a3e78fc-e69b-4022-99eb-7405fb7f5bfa")
+		)
+		(pin "20"
+			(uuid "696ed277-717a-4701-b229-7553be054f6e")
+		)
+		(pin "1"
+			(uuid "3e36a0c6-bbc6-44b7-a3d3-a6efd5ef3bee")
+		)
+		(pin "32"
+			(uuid "3826dbc6-570f-4f26-a48a-e5b7cc76267e")
+		)
+		(pin "38"
+			(uuid "b83933e4-2132-4a25-aa49-7600708ae3a1")
+		)
+		(pin "10"
+			(uuid "4ab750ec-f3c9-40c5-99fb-e85ea52ede46")
+		)
+		(pin "4"
+			(uuid "7d43d080-8ef4-43e4-a6b0-74372012b5ae")
+		)
+		(pin "43"
+			(uuid "d712cea3-72ad-40ce-bf51-54e43448141e")
+		)
+		(pin "31"
+			(uuid "95eed89b-3e31-447c-bc25-83d8e9db0a45")
+		)
+		(pin "45"
+			(uuid "bcf0d466-7956-42ce-bbed-e250f15f8c2c")
+		)
+		(pin "26"
+			(uuid "70a68f69-3856-4092-9cd4-67b11b658f3c")
+		)
+		(pin "6"
+			(uuid "de36b046-79e6-4703-ae15-19851917ab97")
+		)
+		(pin "7"
+			(uuid "f1db2c73-8c57-4f8d-a59d-e0a35c2c79ea")
+		)
+		(pin "13"
+			(uuid "64770c73-cc14-4a72-b02c-5552ba5233d6")
+		)
+		(pin "8"
+			(uuid "7e9232e4-49ba-422e-943e-efbab5d23428")
+		)
+		(pin "34"
+			(uuid "ea0826fe-464e-421f-8558-264760971eef")
+		)
+		(pin "11"
+			(uuid "97acb7a9-7b08-45de-ac3a-4018140bcd39")
+		)
+		(pin "18"
+			(uuid "d3faa1a0-0eb8-4102-9367-9aa13d83ee38")
+		)
+		(pin "25"
+			(uuid "2bf3fc00-baed-49a1-ab82-275ad046a8d4")
+		)
+		(pin "33"
+			(uuid "94d6f7a4-2b10-475b-89ea-c31381fe88f9")
+		)
+		(pin "5"
+			(uuid "63c1efc0-398c-4af4-9afe-e41f17092bc0")
+		)
+		(pin "19"
+			(uuid "bec56cc4-fdb2-463a-a6d2-944163b84138")
+		)
+		(pin "37"
+			(uuid "23ce217c-4d12-483c-a72a-bed45f5447d6")
+		)
+		(instances
+			(project ""
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7944,7 +9123,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR057")
+					(reference "#PWR0359")
 					(unit 1)
 				)
 			)
@@ -8023,7 +9202,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "R2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8102,7 +9281,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8179,7 +9358,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR054")
+					(reference "#PWR0356")
 					(unit 1)
 				)
 			)
@@ -8256,7 +9435,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR055")
+					(reference "#PWR0357")
 					(unit 1)
 				)
 			)
@@ -8333,7 +9512,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR084")
+					(reference "#PWR0369")
 					(unit 1)
 				)
 			)
@@ -8496,7 +9675,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR052")
+					(reference "#PWR0355")
 					(unit 1)
 				)
 			)
@@ -8574,7 +9753,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR081")
+					(reference "#PWR0339")
 					(unit 1)
 				)
 			)
@@ -8651,7 +9830,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR0170")
+					(reference "#PWR0346")
 					(unit 1)
 				)
 			)
@@ -8728,7 +9907,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR051")
+					(reference "#PWR0354")
 					(unit 1)
 				)
 			)
@@ -8912,7 +10091,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8991,7 +10170,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "C29")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -9073,7 +10252,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "C24")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -9150,7 +10329,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR088")
+					(reference "#PWR0347")
 					(unit 1)
 				)
 			)
@@ -9228,7 +10407,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR076")
+					(reference "#PWR0337")
 					(unit 1)
 				)
 			)
@@ -9310,7 +10489,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "C22")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -9389,7 +10568,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "R7")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9466,7 +10645,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR087")
+					(reference "#PWR0342")
 					(unit 1)
 				)
 			)
@@ -9543,7 +10722,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR0169")
+					(reference "#PWR0348")
 					(unit 1)
 				)
 			)
@@ -9620,7 +10799,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR072")
+					(reference "#PWR0365")
 					(unit 1)
 				)
 			)
@@ -9697,7 +10876,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR047")
+					(reference "#PWR0353")
 					(unit 1)
 				)
 			)
@@ -9870,7 +11049,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR07")
+					(reference "#PWR0349")
 					(unit 1)
 				)
 			)
@@ -10027,7 +11206,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR078")
+					(reference "#PWR0343")
 					(unit 1)
 				)
 			)
@@ -10104,7 +11283,7 @@
 			)
 			(project ""
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR050")
+					(reference "#PWR0335")
 					(unit 1)
 				)
 			)
@@ -10183,13 +11362,78 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
 			(project "Duality_TheSecond"
 				(path "/bfb8a9ef-9eb1-46b4-b715-d4c4059fa4b1/aae00d5e-a2cc-4de1-8012-cadfbb289a8c"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 137.16 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2e85f78-e7c6-4087-8820-3560e09ac547")
+		(property "Reference" "#PWR0370"
+			(at 137.16 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 137.16 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37181848-9130-4572-9d60-28a843132191")
+		)
+		(instances
+			(project "Duality"
+				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
+					(reference "#PWR0370")
 					(unit 1)
 				)
 			)
@@ -10260,7 +11504,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR077")
+					(reference "#PWR0336")
 					(unit 1)
 				)
 			)
@@ -10337,7 +11581,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR085")
+					(reference "#PWR0340")
 					(unit 1)
 				)
 			)
@@ -10416,7 +11660,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "C28")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -10498,7 +11742,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "C26")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -10575,7 +11819,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR066")
+					(reference "#PWR0363")
 					(unit 1)
 				)
 			)
@@ -10652,7 +11896,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR074")
+					(reference "#PWR0367")
 					(unit 1)
 				)
 			)
@@ -10729,7 +11973,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR048")
+					(reference "#PWR0352")
 					(unit 1)
 				)
 			)
@@ -10810,7 +12054,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "C30")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -10887,7 +12131,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR080")
+					(reference "#PWR0345")
 					(unit 1)
 				)
 			)
@@ -10968,7 +12212,7 @@
 			)
 			(project ""
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "C31")
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -11045,7 +12289,7 @@
 			)
 			(project ""
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR062")
+					(reference "#PWR0360")
 					(unit 1)
 				)
 			)
@@ -11122,7 +12366,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "#PWR075")
+					(reference "#PWR0366")
 					(unit 1)
 				)
 			)
@@ -11204,7 +12448,7 @@
 			)
 			(project "Duality_TheSecond"
 				(path "/ae9225e9-4453-4b68-a70e-f88602f2aa14/18f0e30f-68c4-4e92-9427-c9a61fd21267"
-					(reference "C23")
+					(reference "C90")
 					(unit 1)
 				)
 			)
